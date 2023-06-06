@@ -5,3 +5,26 @@ public class HelloWorld {
         System.out.println("Hello World!");
     }
 }
+/*
+public class VariableTypes {
+    public static void main(String[] args) {
+        String name = "Cleopatra";
+        int age = 2016 + 69;
+        double price = 1999.99;
+        boolean truth = true;
+        boolean falseness = !truth;
+    }
+}
+*/
+
+
+public class VariableTypes {
+    public static void main(String[] args) {
+    String name = "Cleopatra";
+        int age = 2016 + 69;
+        double price = 1999.99;
+        boolean truth = true;
+        boolean falseness = !truth;
+
+    }
+}
