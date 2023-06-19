@@ -27,7 +27,7 @@ private Integer userId;
 
 @NotNull
 @Temporal(TemporalType.DATE)
-@Column(name = "updated_at")
+@Column(name = "updated_at", unique = false)
 private Date updatedAt = new Date();
 
 @OneToMany(mappedBy = "postId", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
