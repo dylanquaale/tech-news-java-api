@@ -134,5 +134,3 @@ public class User implements Serializable {
                 '}';
     }
 }
-
-// finish up models today
